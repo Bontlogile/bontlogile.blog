@@ -123,7 +123,7 @@ ul li a:hover{
 }
 
 .content{
-    width: 1200px;
+    width: 30%;
     height: auto;
     margin: auto;
     color: #fff;
@@ -177,10 +177,11 @@ ul li a:hover{
 
 .quitetime{
     width: 70%;
-    height: 400px;
+    height: 70%;
     background: linear-gradient(to top, rgba(0,0,0,0.4)60%, rgba(0,0,0,0.4)60%);
-    background-position: center;
+    background-position: absolute;
     padding: 25px;
+    float: right;
 
 }
 
@@ -190,29 +191,17 @@ ul li a:hover{
 }
 
 .qt{
-    width: 240px;
-    height: 40px;
+    width: 50%;
+    height: 10%px;
     background-color: #00ff4c;
     border: none;
     margin-top: 30px;
-    font-size: 18px;
-    border-radius: 10px;
-    cursor: pointer;
-    color: white;
-    transition: 0.4s ease;
-}
-
-.form .link{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
-    padding-top: 20px;
+    font-size: 22px;
     text-align: center;
+    border-radius: 10px;
+    color: black;
 }
 
-.form .link a{
-    text-decoration: none;
-    color: #00ff4c;
-}
 
 .sw{
     padding-top: 15px;
