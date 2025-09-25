@@ -34,7 +34,7 @@ a:hover {
 .main{
     height: 100vh;
     width: 100vw;
-   background-image: linear-gradient(to bottom, rgba(12, 12, 12, 0.726), rgba(238, 9, 181, 0.178)), url(/Images/pexels-daniela-constantini-5591704.jpg);
+   background-image: linear-gradient(to bottom, rgba(12, 12, 12, 0.808), rgba(238, 9, 181, 0.178)), url(/Images/pexels-daniela-constantini-5591704.jpg);
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
@@ -111,23 +111,26 @@ ul li a:hover{
     border-bottom-right-radius: 5px;
     border-bottom-right-radius: 5px;
     cursor: pointer;
-    float: inline-end;
-}
-
-.btn:focus{
-    outline: none;
+    float: right;
+    position: relative;
 }
 
 .srch:focus{
     outline: none;
 }
+.btn:focus{
+    outline: none;
+}
+
+
 
 .content{
-    width: 30%;
+    width: 50%;
     height: auto;
-    margin: auto;
     color: #fff;
     position: relative;
+    float: left;
+
 }
 
 .content .par{
@@ -145,26 +148,8 @@ ul li a:hover{
     padding-left: 20px;
     margin-top: 9%;
     letter-spacing: 2px;
-
 }
 
-.content .cn{
-    width: 160px;
-    height: 40px;
-    background: #00ff4c;
-    border: none;
-    margin-bottom: 10px;
-    margin-left: 20px;
-    font-size: 18px;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-.content .cn a{
-    text-decoration: none;
-    color: #000;
-    transition: .3s ease;
-}
 
 .cn:hover{
     background-color: #fff;
@@ -176,13 +161,15 @@ ul li a:hover{
 }
 
 .quitetime{
-    width: 70%;
-    height: 70%;
     background: linear-gradient(to top, rgba(0,0,0,0.4)60%, rgba(0,0,0,0.4)60%);
-    background-position: absolute;
     padding: 25px;
     float: right;
-
+    width: 50%;
+    height: auto;
+    position: relative;
+    margin-top: -29%;
+    margin-right: 30px;
+    
 }
 
 ::placeholder{
@@ -191,8 +178,8 @@ ul li a:hover{
 }
 
 .qt{
-    width: 50%;
-    height: 10%px;
+    width: auto;
+    height: auto;
     background-color: #00ff4c;
     border: none;
     margin-top: 30px;
@@ -202,6 +189,11 @@ ul li a:hover{
     color: black;
 }
 
+.quitetime p{
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-size: medium;
+}
 
 .sw{
     padding-top: 15px;
