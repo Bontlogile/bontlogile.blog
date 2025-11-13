@@ -1,13 +1,15 @@
 html{
-    background-image: url(/Images/9dde3fbea7272e8a4cc1132d626a524f.jpg);
+    background-image: url(/Images/Pink\ Watercolor\ Gradient\ Flower\ Linktree_20251101_025909_0000.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     margin: 0;
     padding: 0;
 }
+
+
 
 header{
     display: flex;
@@ -41,3 +43,45 @@ h1{
     font-size: 70px;
     text-align: center;
 }
+
+
+
+.nav-links {
+    display: none; /* Hide links on mobile by default */
+  }
+  
+  .menu-toggle {
+    font-size: 30px;
+    cursor: pointer;
+    display: block;
+  }
+  
+  /* Show nav-links and hide toggle on large screens */
+  @media(min-width: 768px) {
+    .nav-links {
+      display: flex;
+    }
+    .menu-toggle {
+      display: none;
+    }
+  }
+  
+  /* Show nav-links when active */
+  .nav-links.active {
+    display: block;
+    background: #333;
+  }
+  .nav-links a {
+    color: white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+  }
+
+  .quitetime {
+    background-color: rgba(240, 255, 255, 0.801);
+    padding: 5%;
+    margin: 10%;
+    margin-top: auto;
+
+  }
