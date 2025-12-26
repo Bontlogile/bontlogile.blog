@@ -42,6 +42,13 @@ nav a {
 h1{
     font-size: 100px;
     text-align: center;
+    color: aliceblue;
+}
+
+h2 {
+  font-size: 24px;
+  color: aliceblue;
+  font-style: italic;
 }
 
 .nav-links {
@@ -83,7 +90,6 @@ h1{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100% 50%; 
-    margin-bottom: 30px;  
 }
 
 #motto {
@@ -93,39 +99,102 @@ h1{
     text-align: center;
 }
 
-h2 {
-    font-size: 70px;
+#about-me
+{
+  width: 100%;
+  min-height: 200px;
+  background-color: pink;
+  margin: auto;
+  text-align: center;
+  padding: 10%;
+  display: flex;
+  overflow: hidden; /*contains children*/
+  justify-content: space-around;
+  align-content: center;
+
 }
 
-#quite-time
+#about-me-paragraph
+{width: 50%;
+  min-height: auto;
+  background-color: yellow;
+  float: right;
+  padding: 20px;
+
+}
+#about-me-picture
+{width: 50%;
+  min-height: 30px;
+  background-color: yellow;
+  float: left;
+  padding: 20px;
+
+}
+#quotes
 {
-  width: 80%;
-  height: 100vh;
+  width: 100%;
+  min-height: 50vh;
+  background-color: rgb(236, 40, 73);
+  margin: auto;
+  text-align: center;
+  padding: 10%;
+  position: relative;
+}
+
+.quotes-slide-fade
+{
+  display: none;
+  width: 100%;
+}
+
+.quotes-slide-fade img 
+{
+  width: 100%;
+  height:auto;
+}
+
+.fade { animation: fade 1.5s;} @keyframes fade { from {opacity: .4} to {opacity: 1}}
+.prev, .next { position:absolute; top:50%; font-size:18px; cursor: pointer;}
+
+#products
+{
+  width: 100%;
+  min-height: 50vh;
+  background-color: pink;
+  display: flex;
+  overflow: hidden; /*contains children*/
+  justify-content: space-around;
+  align-content: center;
+}
+
+.box 
+{width: 30%;
+  height: 60%;
+  background-color: yellow;
+}
+
+#latest-blog
+{
+  width: 100%;
+  min-height: 50vh;
+  background-color: rgb(236, 40, 73);
+  margin: auto;
+  text-align: center;
+  padding: 10%;
+}
+#footer
+{
+  width: 100%;
+  min-height: 50vh;
   background-color: pink;
   margin: auto;
   text-align: center;
   padding: 10%;
 }
 
-#quite-time h3
+#about-image-holder
 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-#message
-{
-  text-align: left;
-  margin-bottom: 10px;
-}
-
-#message p
-{
-  margin: 10px;
-}
-#quite-time time
-{
-  font-style: italic;
-  text-align: left;
-  font-size: 13px;
+  width: 25%;
+  height: 100% ;
+  background-color: black;
 }
